@@ -100,8 +100,6 @@ def home():
             result = f"<b style='color:red'>Error:</b> {e}"
     return render_template_string(HTML, result=result, num=num, p_name=p_name_input, count=count)
 
-if __name__ == "__main__":
-    app.run(debug=True)
 
 
 
